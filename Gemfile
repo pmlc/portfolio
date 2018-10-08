@@ -55,3 +55,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # PMLC
 gem 'friendly_id', '~> 5.2.0'
 gem 'devise'
+gem 'bootstrap', '~> 4.0.0.alpha6'
