@@ -62,3 +62,5 @@ gem 'friendly_id', '~> 5.2.0'
 gem 'devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'petergate', '~> 1.7'
+
+ruby "2.5.1p57"
