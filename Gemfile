@@ -62,5 +62,9 @@ gem 'friendly_id', '~> 5.2.0'
 gem 'devise'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'petergate', '~> 1.7'
+# for social links
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
+# pagination
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 
 ruby "2.5.1"
