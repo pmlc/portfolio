@@ -19,6 +19,7 @@
 
 # PMLC
 /config/secrets.yml
+.env
 
 # Ignore Byebug command history file.
 .byebug_history
