@@ -10,5 +10,6 @@ module SocialTool
     #client.search("rails", result_type: 'recent').take(6).collect do |tweet| 
     #  "#{tweet.user.screen_name}: #{tweet.text}" 
     #end 
+    @tweets=["test this tweet", "another twwet https://www.t-nation.com/ "]
   end 
 end 
