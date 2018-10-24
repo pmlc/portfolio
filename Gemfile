@@ -70,6 +70,8 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 # notifications to screen
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
+# stuff for Action Cable
+gem 'redis', '~> 3.3', '>= 3.3.3'
 
 
 # ruby "2.5.1"
