@@ -12,15 +12,15 @@ module PagesHelper
           (?: 
             [^\s()<>]+ | \(([^\s()<>]+|(\([^\s()<>]+\)))*\) 
           )+ 
-          (?: 
+         (?: 
             \(([^\s()<>]+|(\([^\s()<>]+\)))*\) | 
               [^\s`!()\[\]{};:'".,<>?«»“”‘’] 
-          ) 
-        ) 
-      }ix 
+         ) 
+      ) 
+    }ix 
 
-      tweet.gsub(regex) do |url| 
-          "<a href='#{url}' target='_blank'>#{url}</a>" 
-      end.html_safe 
+    tweet.gsub(regex) do |url| 
+      "<a href='#{url}' target='_blank'>#{url}</a>" 
+    end.html_safe 
   end 
 end 
