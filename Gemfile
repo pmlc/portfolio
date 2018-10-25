@@ -70,7 +70,7 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 # notifications to screen
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
-# stuff for Action Cable
+# stuff for Action Cable = a key value pair database
 gem 'redis', '~> 3.3', '>= 3.3.3'
 
 
