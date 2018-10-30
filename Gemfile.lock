@@ -289,7 +289,7 @@ DEPENDENCIES
   petergate (~> 1.7)
   pg
   puma (~> 3.0)
-  rails (~> 5.0.7)
+  rails (~> 5.0.1)
   redis (~> 3.3, >= 3.3.3)
   sass-rails (~> 5.0)
   spring

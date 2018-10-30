@@ -7,7 +7,7 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.7'
+gem 'rails', '~> 5.0.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -70,7 +70,7 @@ gem 'cocoon', '~> 1.2', '>= 1.2.9'
 # notifications to screen
 gem 'gritter', '~> 1.2'
 gem 'twitter', '~> 6.1'
-# stuff for Action Cable
+# stuff for Action Cable = a key value pair database
 gem 'redis', '~> 3.3', '>= 3.3.3'
 
 
