@@ -1,16 +1,44 @@
-<h1>About Me</h1> 
+<div class="app-card-container"> 
+  <div class="card"> 
+    <h1>About Me</h1> 
 
-<hr> 
+    <hr> 
 
-<div class="row"> 
-  <div class="col-md-4"> 
-    <%= image_tag "profile.jpg", width: 300, alt: "profile image" %> 
-  </div> 
+    <div class="row"> 
+      <div class="col-md-4"> 
+        <%= image_tag "profile.jpg", width: 300, alt: "profile image" %> 
+      </div> 
 
-  <div class="col-md-8"> 
-    <p>With over a decade of development experience in a number of industries ....</p> 
+      <div class="col-md-8"> 
+        <p>With over a decade of development experience in a number of industries ....</p> 
 
-    <p>For this reason I decided to utilize a completely different development pattern that focuses on highly focused .</p> 
-  </div> 
-
-</div> 
+        <p>For this reason I decided to utilize a completely different development pattern that focuses on highly focused .</p> 
+        
+        <p> 
+          <button 
+            class="btn btn-primary" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#jobHistory" 
+            aria-expanded="false" 
+            aria-controler="jobHistory" 
+          > 
+            Job History
+          </button> 
+        </p>
+        
+        <p>
+          <div class="collapse" id="jobHistory">
+            <div class="card crd-block">
+              Job stuff
+            </div>
+          </div>
+        </p>
+        
+        
+        
+        
+      </div> 
+    </div> 
+  </div>
+</div>
