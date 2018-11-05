@@ -83,4 +83,9 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  # added for productnon using live action vcode for comments 
+  config.action_cable.allowed_request_origins = ['https://port-pmlc.herokuapp.com', 'http://port-pmlc.herokuapp.com'] 
+  config.action_cable.url = "wss://port-pmlc.herokuapp.com/cable"
+
 end
