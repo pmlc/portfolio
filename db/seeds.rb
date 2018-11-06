@@ -27,7 +27,7 @@ puts "10 blog posts created"
 #puts "5 skills created" 
   
  
-8.times do |portfolio_item| 
+1.times do |portfolio_item| 
   Portfolio.create!( 
     title: "Portfolio title: #{portfolio_item}", 
     subtitle: "Ruby on Rails",
